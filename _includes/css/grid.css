@@ -16,9 +16,10 @@
   text-rendering: auto;
   vertical-align: top;
   word-spacing: normal;
+
 }
 .unit-spacer {
-  padding: 5px;
+  padding: 8px;
 }
 @media only screen and (max-width: 38em) {
   .unit-s-hidden {
