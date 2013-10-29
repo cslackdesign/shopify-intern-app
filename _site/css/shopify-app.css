@@ -39,8 +39,39 @@ h1 {
 
 /*------------------------------------------------------------------------WORK*/
 
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
 #work {
   background-color: #fff;
+
+  text-align: center;
+}
+
+.flex-img {
+  width: 100%;
+
+}
+
+/*---------------------------------------------------------------------CONTACT*/
+
+#contact {
+  text-align: center;
+}
+
+.contact-id{
+  list-style-type: none;
+  text-align: center;
+
+  margin: 0 0 0 -2.4rem;
+}
+
+.flex-img-contact {
+  width: 50%;
 }
 
 
@@ -196,22 +227,6 @@ nav {
 }
 
 
-@media only screen and (min-width: 50em){
-  .nav {
-    display:none;
-  }
-
-  .nav-btn {
-    display:none;
-  }
-
-  .large-nav {
-    display: inline-block;
-
-
-  }
-}
-
 .grid {
   letter-spacing: -0.31em;
   *letter-spacing: normal;
@@ -232,7 +247,7 @@ nav {
   word-spacing: normal;
 }
 .unit-spacer {
-  padding: 8px;
+  padding: 5px;
 }
 @media only screen and (max-width: 38em) {
   .unit-s-hidden {
