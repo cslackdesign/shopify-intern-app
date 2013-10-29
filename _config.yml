@@ -1,3 +1,2 @@
 markdown: redcarpet
 baseurl: /shopify-intern-app
-exclude: ['README.md']
