@@ -121,14 +121,19 @@ h2 {
   letter-spacing: .5px;
 }
 
-#work {
+#work-wrap {
   background-color: #fff;
 
+  height: 1000px;
+
+  box-shadow: 1px 1px 10px #333;
+}
+
+#work {
   text-align: center;
 
   padding: 25px;
 
-  box-shadow: 1px 1px 10px #333;
 }
 
 .flex-img {
@@ -145,6 +150,7 @@ h2 {
 /*---------------------------------------------------------------------CONTACT*/
 
 #contact {
+
   text-align: center;
 
   margin: 0 0 2rem 0;
@@ -168,7 +174,6 @@ h2 {
 
 @media only screen and (min-width: 30em){
   #contact {
-    padding: 10px;
   }
 }
 
