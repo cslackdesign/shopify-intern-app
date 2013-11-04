@@ -112,6 +112,37 @@ h1 {
   }
 }
 
+@media only screen and (min-width: 50em){
+  .flex-img-greet{
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  #sub {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 60em){
+  .flex-img-greet{
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 99em){
+  h1 {
+    font-size: 5rem;
+    margin: 0 30rem 0 30rem;
+  }
+}
+
 /*------------------------------------------------------------------------WORK*/
 
 h2 {
@@ -124,7 +155,7 @@ h2 {
 #work-wrap {
   background-color: #fff;
 
-  height: 1000px;
+  height: 1030px;
 
   box-shadow: 1px 1px 10px #333;
 }
@@ -147,6 +178,37 @@ h2 {
   }
 }
 
+@media only screen and (min-width: 40em){
+  #work-wrap {
+    height: 1500px;
+  }
+}
+
+@media only screen and (min-width: 60em){
+  #work-wrap {
+    height: 1500px;
+  }
+
+  #work {
+    padding: 60px 100px 100px 100px;
+  }
+}
+
+@media only screen and (min-width: 70em){
+  #work-wrap {
+    height: 1500px;
+  }
+
+    #work {
+    padding: 60px 200px 200px 200px;
+  }
+}
+
+@media only screen and (min-width: 80em){
+  #work {
+    padding: 60px 300px 300px 300px;
+  }
+}
 /*---------------------------------------------------------------------CONTACT*/
 
 #contact {
@@ -172,8 +234,15 @@ h2 {
   width: 50%;
 }
 
-@media only screen and (min-width: 30em){
+@media only screen and (min-width: 60em){
   #contact {
+    padding: 60px;
+  }
+}
+
+@media only screen and (min-width: 80em){
+  #contact {
+    padding: 60px 150px 60px 150px;
   }
 }
 
@@ -274,6 +343,12 @@ nav {
 
 
   text-align:center;
+}
+
+@media only screen and (min-width: 70em){
+  .nav {
+    width: 10rem;
+  }
 }
 
 .nav li {
@@ -403,7 +478,7 @@ nav {
     display: block;
   }
   .unit-s-1-2 {
-    width: 50%;
+    width: 45%;
   }
   .unit-s-1-3 {
     width: 33.33333%;
@@ -418,7 +493,7 @@ nav {
     width: 75%;
   }
 }
-@media only screen and (min-width: 38em) and (max-width: 60em) {
+@media only screen and (min-width: 38em) and (max-width: 90em) {
   .unit-m-hidden {
     display: none;
     visibility: hidden;
@@ -442,7 +517,7 @@ nav {
     width: 75%;
   }
 }
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
   .unit-l-hidden {
     display: none;
     visibility: hidden;
@@ -451,10 +526,10 @@ nav {
     display: block;
   }
   .unit-l-1-2 {
-    width: 50%;
+    width: 47%;
   }
   .unit-l-1-3 {
-    width: 33.33333%;
+    width: 30%;
   }
   .unit-l-2-3 {
     width: 66.66667%;
@@ -500,9 +575,112 @@ h3 {
   text-align: center;
 }
 
-/*ICELAND*/
 
-#iceland img {
-  margin-left: 8px;
+@media only screen and (min-width: 50em){
+  #dropkick {
+    padding: 30px 200px 200px 200px;
+  }
+
+  #iceland {
+    padding: 30px 200px 200px 200px;
+  }
+
+  #intranet {
+    padding: 30px 200px 200px 200px;
+  }
+
+  #web-2 {
+    padding: 30px 200px 200px 200px;
+  }
+
+  #web-1 {
+    padding: 30px 200px 200px 200px;
+  }
+
+  #collective {
+    padding: 30px 200px 200px 200px;
+  }
+}
+
+
+@media only screen and (min-width: 70em){
+  #dropkick {
+    padding: 60px 300px 300px 300px;
+  }
+
+  #iceland {
+    padding: 60px 400px 400px 400px;
+  }
+
+  #intranet {
+    padding: 60px 300px 300px 300px;
+  }
+
+  #web-2 {
+    padding: 60px 300px 300px 300px;
+  }
+
+  #web-1 {
+    padding: 60px 300px 300px 300px;
+  }
+
+  #collective {
+    padding: 60px 300px 300px 300px;
+  }
+}
+
+@media only screen and (min-width: 75em){
+  #dropkick {
+    padding: 60px 500px 500px 500px;
+  }
+
+  #iceland {
+    padding: 60px 600px 600px 600px;
+  }
+
+  #intranet {
+    padding: 60px 500px 500px 500px;
+  }
+
+  #web-2 {
+    padding: 60px 500px 500px 500px;
+  }
+
+  #web-1 {
+    padding: 60px 500px 500px 500px;
+  }
+
+  #collective {
+    padding: 60px 500px 500px 500px;
+  }
+}
+
+@media only screen and (min-width: 90em){
+  #dropkick {
+    padding: 60px 700px 700px 700px;
+  }
+
+  #iceland {
+    padding: 60px 800px 800px 800px;
+  }
+
+  #intranet {
+    padding: 60px 700px 700px 700px;
+  }
+
+  #web-2 {
+    padding: 60px 700px 700px 700px;
+  }
+
+  #web-1 {
+    padding: 60px 700px 700px 700px;
+  }
+
+  #collective{
+    padding: 60px 700px 700px 700px;
+  }
+
+
+
 }
 

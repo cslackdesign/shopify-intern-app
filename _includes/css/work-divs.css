@@ -31,8 +31,111 @@ h3 {
   text-align: center;
 }
 
-/*ICELAND*/
 
-#iceland img {
-  margin-left: 8px;
+@media only screen and (min-width: 50em){
+  #dropkick {
+    padding: 30px 200px 200px 200px;
+  }
+
+  #iceland {
+    padding: 30px 200px 200px 200px;
+  }
+
+  #intranet {
+    padding: 30px 200px 200px 200px;
+  }
+
+  #web-2 {
+    padding: 30px 200px 200px 200px;
+  }
+
+  #web-1 {
+    padding: 30px 200px 200px 200px;
+  }
+
+  #collective {
+    padding: 30px 200px 200px 200px;
+  }
+}
+
+
+@media only screen and (min-width: 70em){
+  #dropkick {
+    padding: 60px 300px 300px 300px;
+  }
+
+  #iceland {
+    padding: 60px 400px 400px 400px;
+  }
+
+  #intranet {
+    padding: 60px 300px 300px 300px;
+  }
+
+  #web-2 {
+    padding: 60px 300px 300px 300px;
+  }
+
+  #web-1 {
+    padding: 60px 300px 300px 300px;
+  }
+
+  #collective {
+    padding: 60px 300px 300px 300px;
+  }
+}
+
+@media only screen and (min-width: 75em){
+  #dropkick {
+    padding: 60px 500px 500px 500px;
+  }
+
+  #iceland {
+    padding: 60px 600px 600px 600px;
+  }
+
+  #intranet {
+    padding: 60px 500px 500px 500px;
+  }
+
+  #web-2 {
+    padding: 60px 500px 500px 500px;
+  }
+
+  #web-1 {
+    padding: 60px 500px 500px 500px;
+  }
+
+  #collective {
+    padding: 60px 500px 500px 500px;
+  }
+}
+
+@media only screen and (min-width: 90em){
+  #dropkick {
+    padding: 60px 700px 700px 700px;
+  }
+
+  #iceland {
+    padding: 60px 800px 800px 800px;
+  }
+
+  #intranet {
+    padding: 60px 700px 700px 700px;
+  }
+
+  #web-2 {
+    padding: 60px 700px 700px 700px;
+  }
+
+  #web-1 {
+    padding: 60px 700px 700px 700px;
+  }
+
+  #collective{
+    padding: 60px 700px 700px 700px;
+  }
+
+
+
 }
