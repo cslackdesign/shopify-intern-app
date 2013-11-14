@@ -25,27 +25,27 @@ layout: default
   <h2>WORK</h2>
 
   <div class="unit-spacer unit unit-s-1-2 unit-m-1-2 unit-l-1-3">
-    <a id="dropkick-button"><img class="flex-img" src="img/dropkick.jpg" alt="Dropkick Brewery Concept"></a>
+    <a data-id="dropkick" class="work-btn"><img class="flex-img" src="img/dropkick.jpg" alt="Dropkick Brewery Concept"></a>
   </div>
 
   <div class="unit-spacer unit unit-s-1-2 unit-m-1-2 unit-l-1-3">
-    <a id="iceland-button"><img class="flex-img" src="img/book-design.jpg" alt="Iceland Book Concept"></a>
+    <a data-id="iceland" class="work-btn"><img class="flex-img" src="img/book-design.jpg" alt="Iceland Book Concept"></a>
   </div>
 
   <div class="unit-spacer unit unit-s-1-2 unit-m-1-2 unit-l-1-3">
-    <a id="collective-button"><img class="flex-img" src="img/steam.jpg" alt="Steam TV Broadcast Package"></a>
+    <a data-id="collective" class="work-btn"><img class="flex-img" src="img/steam.jpg" alt="Steam TV Broadcast Package"></a>
   </div>
 
   <div class="unit-spacer unit unit-s-1-2 unit-m-1-2 unit-l-1-3">
-    <a id="web-1-button"><img class="flex-img" src="img/personal-web-1.jpg" alt="Personal Website One"></a>
+    <a data-id="web-1" class="work-btn"><img class="flex-img" src="img/personal-web-1.jpg" alt="Personal Website One"></a>
   </div>
 
   <div class="unit-spacer unit unit-s-1-2 unit-m-1-2 unit-l-1-3">
-    <a id="intranet-button"><img class="flex-img" src="img/intranet-wip.jpg" alt="Intranet Design Work In Progress"></a>
+    <a data-id="intranet" class="work-btn"><img class="flex-img" src="img/intranet-wip.jpg" alt="Intranet Design Work In Progress"></a>
   </div>
 
   <div class="unit-spacer unit unit-s-1-2 unit-m-1-2 unit-l-1-3">
-    <a id="web-2-button"><img class="flex-img" src="img/personal-web-2.jpg" alt="Personal Webpage Two"></a>
+    <a data-id="web-2" class="work-btn"><img class="flex-img" src="img/personal-web-2.jpg" alt="Personal Webpage Two"></a>
   </div>
 
 </div>
@@ -57,8 +57,8 @@ layout: default
 <div id="dropkick" class="grid work-div">
 
   <ul class="work-nav">
-    <li><a id="close-dropkick">CLOSE</a></li>
-    <li><a id="next-iceland">NEXT</a></li>
+    <li><a class="close-btn">CLOSE</a></li>
+    <li><a class="next-btn">NEXT</a></li>
   </ul>
 
   <h3>Dropkick Lager & Brewery Concept</h3>
@@ -91,9 +91,9 @@ layout: default
 <div id="iceland" class="grid work-div">
 
   <ul class="work-nav">
-    <li><a id="prev-dropkick">PREV</li></a>
-    <li><a id="close-iceland">CLOSE</a></li>
-    <li><a id="next-collective">NEXT</a></li>
+    <li><a class="prev-btn">PREV</li></a>
+    <li><a class="close-btn">CLOSE</a></li>
+    <li><a class="next-btn">NEXT</a></li>
   </ul>
 
   <h3>Iceland Photography Book Concept</h3>
@@ -127,16 +127,18 @@ layout: default
 <div id="collective" class="grid work-div">
 
   <ul class="work-nav">
-    <li><a id="prev-iceland">PREV</li></a>
-    <li><a id="close-collective">CLOSE</a></li>
-    <li><a id="next-web-1">NEXT</a></li>
+    <li><a class="prev-btn">PREV</li></a>
+    <li><a class="close-btn">CLOSE</a></li>
+    <li><a class="next-btn">NEXT</a></li>
   </ul>
 
   <h3>Steam TV Broadcast Package</h3>
 
-  <div class="unit unit-s-1 unit-m-1 unit-l-1">
-    <iframe src="//player.vimeo.com/video/78500146" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  </div>
+
+    <div class="video">
+      <iframe src="//player.vimeo.com/video/78500146"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
 
   <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
     <p class="work-p">Concept for a television network called SteamTV. Includes a broadcast package with title reveal, lower thirds, sidebar animation and transitions.</p>
@@ -150,9 +152,9 @@ layout: default
 <div id="web-1" class="grid work-div">
 
   <ul class="work-nav">
-    <li><a id="prev-collective">PREV</li></a>
-    <li><a id="close-web-1">CLOSE</a></li>
-    <li><a id="next-intranet">NEXT</a></li>
+    <li><a class="prev-btn">PREV</li></a>
+    <li><a class="close-btn">CLOSE</a></li>
+    <li><a class="next-btn">NEXT</a></li>
   </ul>
 
   <h3>Personal Web Page - Spetember 2013</h3>
@@ -172,9 +174,9 @@ layout: default
 <div id="intranet" class="grid work-div">
 
   <ul class="work-nav">
-    <li><a id="prev-web-1">PREV</li></a>
-    <li><a id="close-intranet">CLOSE</a></li>
-    <li><a id="next-web-2">NEXT</a></li>
+    <li><a class="prev-btn">PREV</li></a>
+    <li><a class="close-btn">CLOSE</a></li>
+    <li><a class="next-btn">NEXT</a></li>
   </ul>
 
   <h3>Eastforest Homes Intranet</h3>
@@ -202,8 +204,8 @@ layout: default
 <div id="web-2" class="grid work-div">
 
   <ul class="work-nav">
-    <li><a id="prev-intranet">PREV</li></a>
-    <li><a id="close-web-2">CLOSE</a></li>
+    <li><a class="prev-btn">PREV</li></a>
+    <li><a class="close-btn">CLOSE</a></li>
   </ul>
 
   <h3>Personal Webpage Design - October 2013</h3>

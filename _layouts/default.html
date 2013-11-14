@@ -19,7 +19,7 @@
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 
 </head>
-<body>
+<body id="top">
 
   <header>
 
@@ -28,7 +28,7 @@
     <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
     <nav class="nav nav-top" data-state="collapsed">
       <ul>
-        <li><a href="{{site.baseurl}}/">HOME</a></li>
+        <li><a href="#top">HOME</a></li>
         <li><a href="#work">WORK</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
@@ -45,9 +45,15 @@
   <!--SCRIPTS-->
 
   <script src="{{site.baseurl}}/js/footer-toggle-hybrid.js"></script>
-  <script src="{{site.baseurl}}/js/jquery-1.10.2.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="{{site.baseurl}}/js/work-div.js"></script>
-  <script src="{{site.baseurl}}/js/smooth-scroll.js"></script>
+  <script src="{{site.baseurl}}/js/jquery.smooth-scroll.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.nav-top a').smoothScroll();
+    });
+  </script>
 
 </body>
 </html>
