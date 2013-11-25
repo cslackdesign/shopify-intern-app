@@ -144,7 +144,6 @@ h1 {
 @media only screen and (min-width: 99em){
   h1 {
     font-size: 5rem;
-    margin: 0 30rem 0 30rem;
   }
 }
 
@@ -570,6 +569,8 @@ h3 {
   list-style-type: none;
 
   letter-spacing: .1px;
+
+  text-align: center;
 }
 
 
@@ -588,111 +589,10 @@ h3 {
   text-align: center;
 }
 
-@media only screen and (min-width: 50em){
-  #dropkick {
-    padding: 30px 200px 200px 200px;
+@media only screen and (min-width: 40em) {
+
+  .work-nav {
+    font-size: 2rem;
   }
-
-  #iceland {
-    padding: 30px 200px 200px 200px;
-  }
-
-  #intranet {
-    padding: 30px 200px 200px 200px;
-  }
-
-  #web-2 {
-    padding: 30px 200px 200px 200px;
-  }
-
-  #web-1 {
-    padding: 30px 200px 200px 200px;
-  }
-
-  #collective {
-    padding: 30px 200px 200px 200px;
-  }
-}
-
-
-@media only screen and (min-width: 70em){
-  #dropkick {
-    padding: 60px 300px 300px 300px;
-  }
-
-  #iceland {
-    padding: 60px 400px 400px 400px;
-  }
-
-  #intranet {
-    padding: 60px 300px 300px 300px;
-  }
-
-  #web-2 {
-    padding: 60px 300px 300px 300px;
-  }
-
-  #web-1 {
-    padding: 60px 300px 300px 300px;
-  }
-
-  #collective {
-    padding: 60px 300px 300px 300px;
-  }
-}
-
-@media only screen and (min-width: 75em){
-  #dropkick {
-    padding: 60px 500px 500px 500px;
-  }
-
-  #iceland {
-    padding: 60px 600px 600px 600px;
-  }
-
-  #intranet {
-    padding: 60px 500px 500px 500px;
-  }
-
-  #web-2 {
-    padding: 60px 500px 500px 500px;
-  }
-
-  #web-1 {
-    padding: 60px 500px 500px 500px;
-  }
-
-  #collective {
-    padding: 60px 500px 500px 500px;
-  }
-}
-
-@media only screen and (min-width: 90em){
-  #dropkick {
-    padding: 60px 100px 100px 100px;
-  }
-
-  #iceland {
-    padding: 60px 100px 100px 100px;
-  }
-
-  #intranet {
-    padding: 60px 100px 100px 100px;
-  }
-
-  #web-2 {
-    padding: 60px 100px 100px 100px;
-  }
-
-  #web-1 {
-    padding: 60px 100px 100px 100px;
-  }
-
-  #collective {
-    padding: 60px 100px 100px 100px;
-  }
-
-
-
 }
 
