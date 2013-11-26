@@ -23,7 +23,7 @@ body {
 
   background-image: url('/img/background-image.jpg');
   background-repeat: no-repeat;
-  background-size: 400%;
+  background-size: 500%;
   background-position: 0 0;
   background-attachment: fixed;
 }
@@ -37,6 +37,18 @@ body {
 @media only screen and (min-width: 40em){
   body{
     background-size: 300%;
+  }
+}
+
+@media only screen and (min-width: 50em){
+  body{
+    background-size: 200%;
+  }
+}
+
+@media only screen and (min-width: 60em){
+  body{
+    background-size: 100%;
   }
 }
 
