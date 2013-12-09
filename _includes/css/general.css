@@ -86,6 +86,9 @@ h1 {
 
   font-weight: 400;
   text-align: center;
+  margin: 0 auto;
+
+  max-width: 1000px;
 }
 
 .flex-img-greet {
@@ -97,6 +100,9 @@ h1 {
   color: #fff;
 
   font-weight: 300;
+
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 30em){
@@ -254,6 +260,7 @@ h2 {
   color: #fff;
 
   padding: 15px;
+
 }
 
 blockquote {
@@ -262,6 +269,7 @@ blockquote {
 
   font-weight: 300;
   font-size: .9rem;
+
 }
 
 cite {
@@ -271,6 +279,7 @@ cite {
   font-size: .9rem;
 
   padding: 0 0 0 40px;
+
 }
 
 
